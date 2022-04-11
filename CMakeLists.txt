@@ -19,6 +19,7 @@ endif()
 
 include(FeatureSummary)
 
-install(DIRECTORY Wallpapers/ DESTINATION $ENV{HOME}/Pictures/Wallpapers)
+#install(DIRECTORY Wallpapers/ DESTINATION $ENV{HOME}/Pictures/Wallpapers)
+install(DIRECTORY Wallpapers/ DESTINATION ${KDE_INSTALL_WALLPAPERDIR}/Cask)
 
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)

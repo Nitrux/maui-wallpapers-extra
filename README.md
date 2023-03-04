@@ -1,4 +1,4 @@
-# maui-wallpapers-extra
+# Maui Wallpapers Extra
 
 Miscelanous wallpapers that look good in Maui Shell.
 
